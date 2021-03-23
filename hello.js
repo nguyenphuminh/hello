@@ -1,6 +1,5 @@
 function hello(code){
-	code=code.split('');
-	code.forEach(item => {
-		if (item == 'h') document.write('Hello World');
-	});
+	for(i in code){
+		if (code[i] == 'h') document.write('Hello World ');
+	};
 }
